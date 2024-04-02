@@ -36,5 +36,9 @@ convert_button.grid(row=0, column=2, padx=10, pady=(10,0))
 result_label = Label(text="0", bg=main_color, fg="white", font=("Arial", 12))
 result_label.grid(row=1, column=0)
 
+# Notify label
+notify_label = Label(bg=main_color, fg="white", font=("Arial", 12))
+notify_label.grid(row=2, column=0)
+
 # Mainloop
 root.mainloop()
