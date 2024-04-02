@@ -28,5 +28,9 @@ scrollbar_to.set("EUR")
 scrollbar_to_options = OptionMenu(root, scrollbar_to, "EUR", "CZK", "USD")
 scrollbar_to_options.grid(row=1, column=1, padx=10, pady=(10, 0))
 
+# Convert button
+convert_button = Button(text="Přepočítat", font=("Arial", 12))
+convert_button.grid(row=0, column=2, padx=10, pady=(10,0))
+
 # Mainloop
 root.mainloop()
