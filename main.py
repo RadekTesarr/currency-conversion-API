@@ -32,5 +32,9 @@ scrollbar_to_options.grid(row=1, column=1, padx=10, pady=(10, 0))
 convert_button = Button(text="Přepočítat", font=("Arial", 12))
 convert_button.grid(row=0, column=2, padx=10, pady=(10,0))
 
+# Result label
+result_label = Label(text="0", bg=main_color, fg="white", font=("Arial", 12))
+result_label.grid(row=1, column=0)
+
 # Mainloop
 root.mainloop()
